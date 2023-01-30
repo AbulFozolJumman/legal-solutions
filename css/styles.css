@@ -1,0 +1,45 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster&family=Manrope&family=Open+Sans&family=Poppins&family=Work+Sans:ital,wght@0,400;1,700&display=swap');
+/* Default Styles */
+*{
+    font-family: 'EB Garamond', serif;
+}
+/* Banner Section */
+.banner{
+    background-image: url('../images/banner.png');
+}
+.banner-info{
+    max-width: 692px;
+}
+/* Practice Section */
+.practice-option{
+    border: 1px solid lightgray;
+}
+.practice-option:hover{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+/* Feedback-section */
+.carousel-item> img{
+    height: 600px;
+}
+/* For Large Device */
+@media screen and (min-width: 993px) {
+    #business, #criminal, #child{
+        border-top: 0;
+    }
+    #business{
+        border-left: 0;
+    }
+    #child{
+        border-right: 0;
+    }
+    #education, #divorce, #tax{
+        border-bottom: 0;
+    }
+    #education{
+        border-left: 0;
+    }
+    #tax{
+        border-right: 0;
+    }
+}
